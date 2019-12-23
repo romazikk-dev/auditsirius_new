@@ -1,0 +1,9 @@
+.blog-comments .card-header h3 .badge {
+  font-size: 12px !important;
+  line-height: 1em;
+}
+
+.blog-comments .card-footer form {
+  padding-right: 10px;
+}
+
