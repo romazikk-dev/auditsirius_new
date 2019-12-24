@@ -175,6 +175,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         // Unisharp\Laravelfilemanager\LaravelFilemanagerServiceProvider::class,
+        // WebDevEtc\BlogEtc\BlogEtcServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         // Aginev\Datagrid\DatagridServiceProvider::class,
 

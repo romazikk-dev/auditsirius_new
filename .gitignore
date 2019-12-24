@@ -2,7 +2,11 @@
 /public/hot
 /public/storage
 /storage/*.key
-/vendor
+/vendor/*
+!/vendor/webdevetc
+!/vendor/webdevetc/*
+!/vendor/leantony
+!/vendor/leantony/*
 .env
 .env.backup
 .phpunit.result.cache

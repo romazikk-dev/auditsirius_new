@@ -142,7 +142,7 @@ datepicker.init(); // pg = new datepicker();
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! F:\xam\htdocs\audit\resources\js\admin\main.js */"./resources/js/admin/main.js");
+module.exports = __webpack_require__(/*! C:\Users\Roman\Downloads\Open Server 5.3.5\OSPanel\domains\audit\resources\js\admin\main.js */"./resources/js/admin/main.js");
 
 
 /***/ })

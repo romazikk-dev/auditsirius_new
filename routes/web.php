@@ -46,4 +46,16 @@ Route::put('/add-comment-api', 'ApiController@addComment')->name('add.comment.ap
 
 Route::get('/{any}', 'HomeController@index')->where('any', '.*');
 
+Route::any(config('blogetc.blog_prefix', 'blog'), function () {
+
+    return abort(404);
+
+});
+
+// Route::group(['prefix' => config('blogetc.blog_prefix', 'blog')], function () {
+
+    //     return abort(404);
+
+    // });
+
 

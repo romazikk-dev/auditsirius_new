@@ -69857,9 +69857,9 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! F:\xam\htdocs\audit\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! F:\xam\htdocs\audit\resources\sass\app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! F:\xam\htdocs\audit\resources\sass\admin\main.scss */"./resources/sass/admin/main.scss");
+__webpack_require__(/*! C:\Users\Roman\Downloads\Open Server 5.3.5\OSPanel\domains\audit\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! C:\Users\Roman\Downloads\Open Server 5.3.5\OSPanel\domains\audit\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! C:\Users\Roman\Downloads\Open Server 5.3.5\OSPanel\domains\audit\resources\sass\admin\main.scss */"./resources/sass/admin/main.scss");
 
 
 /***/ })
