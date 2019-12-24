@@ -1,42 +1,44 @@
 <template>
-    <div class="footer">
+    <div class="for_footer">
+        <div class="footer">
         
-        <div class="width-1">
-            <div class="footer-contacts">
-                <h3>Контакты</h3>
-                <div class="for-ln">
-                    <div class="ln yellow"></div>
-                </div>
-                <div class="d-table">
-                    <div class="d-table-row">
-                        <div class="d-table-cell">
-                            <div class="circ location"></div>
-                        </div>
-                        <div class="d-table-cell">
-                            03055, Украина, г.Киев<br>
-                            проспект Победы 22, оф 38
-                        </div>
+            <div class="width-1">
+                <div class="footer-contacts">
+                    <h3>Контакты</h3>
+                    <div class="for-ln">
+                        <div class="ln yellow"></div>
                     </div>
-                    <div class="d-table-row">
-                        <div class="d-table-cell">
-                            <div class="circ phone"></div>
+                    <div class="d-table">
+                        <div class="d-table-row">
+                            <div class="d-table-cell">
+                                <div class="circ location"></div>
+                            </div>
+                            <div class="d-table-cell">
+                                03055, Украина, г.Киев<br>
+                                проспект Победы 22, оф 38
+                            </div>
                         </div>
-                        <div class="d-table-cell">
-                            +38 (044) 391 51 07
+                        <div class="d-table-row">
+                            <div class="d-table-cell">
+                                <div class="circ phone"></div>
+                            </div>
+                            <div class="d-table-cell">
+                                +38 (044) 391 51 07
+                            </div>
                         </div>
-                    </div>
-                    <div class="d-table-row">
-                        <div class="d-table-cell">
-                            <div class="circ mail"></div>
-                        </div>
-                        <div class="d-table-cell">
-                            auditsirius@gmail.com
+                        <div class="d-table-row">
+                            <div class="d-table-cell">
+                                <div class="circ mail"></div>
+                            </div>
+                            <div class="d-table-cell">
+                                auditsirius@gmail.com
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
+        </div>
     </div>
 </template>
 
@@ -61,18 +63,30 @@
 
 
 <style scoped>
-    .footer{
+    .for_footer{
+        background-image: url(/img/audit_footer.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
         height: 280px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+    }
+    .footer{
+        /* height: 280px;
         position: absolute;
         width: 100%;
         bottom: 0px;
-        left: 0px;
+        left: 0px; */
+        height: 100%;
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2f5470+0,071a27+100 */
-        background: #2f5470; /* Old browsers */
-        background: -moz-linear-gradient(top,  #2f5470 0%, #071a27 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(top,  #2f5470 0%,#071a27 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to bottom,  #2f5470 0%,#071a27 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f5470', endColorstr='#071a27',GradientType=0 ); /* IE6-9 */
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2f5470+0,071a27+100&0.7+0,0.7+100 */
+background: -moz-linear-gradient(top,  rgba(47,84,112,0.8) 0%, rgba(7,26,39,0.9) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(47,84,112,0.8) 0%,rgba(7,26,39,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(47,84,112,0.8) 0%,rgba(7,26,39,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b32f5470', endColorstr='#b3071a27',GradientType=0 ); /* IE6-9 */
+
     }
     .footer-contacts{
         background-color: #063454;

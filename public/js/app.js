@@ -3375,6 +3375,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['btnText', 'closeModals'],
   mounted: function mounted() {
@@ -9006,7 +9008,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.footer[data-v-61a7c374]{\n    height: 280px;\n    position: absolute;\n    width: 100%;\n    bottom: 0px;\n    left: 0px;\n    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2f5470+0,071a27+100 */\n    background: #2f5470; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */\n    background: -webkit-gradient(linear,  left top, left bottom,  from(#2f5470),to(#071a27));\n    background: linear-gradient(to bottom,  #2f5470 0%,#071a27 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f5470', endColorstr='#071a27',GradientType=0 ); /* IE6-9 */\n}\n.footer-contacts[data-v-61a7c374]{\n    background-color: #063454;\n    color: white;\n    padding: 20px 30px;\n    display: inline-block;\n    position: relative;\n    top: -40px;\n    border-radius: 4px;\n    box-shadow: 0px 0px 5px 0px rgba(129,127,127,0.2);\n}\n.footer-contacts .d-table[data-v-61a7c374]{\n    width: 100%;\n}\n.footer-contacts .d-table .d-table-cell[data-v-61a7c374]{\n    vertical-align: top;\n    padding-bottom: 10px;\n}\n.footer-contacts .d-table .d-table-row:nth-child(2) .d-table-cell[data-v-61a7c374]{\n    padding-bottom: 15px;\n}\n.footer-contacts .d-table .d-table-cell[data-v-61a7c374]:first-child{\n    width: 50px;\n}\n.footer-contacts .d-table .d-table-cell[data-v-61a7c374]:last-child{\n    padding-top: 10px;\n}\n.footer-contacts .circ[data-v-61a7c374]{\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n    background-color: #015999;\n    border: 5px solid #034676;\n}\n.footer-contacts h3[data-v-61a7c374]{\n    text-align: center;\n    font-weight: bold;\n    margin: 0px;\n    line-height: 1em;\n}\n.footer-contacts .circ[data-v-61a7c374]{\n    /* background-image: url(/img/logo.png); */\n    background-position: center;\n    background-repeat: no-repeat;\n}\n.footer-contacts .circ.location[data-v-61a7c374]{\n    background-image: url(/img/map-location.png);\n    background-size: 10px;\n}\n.footer-contacts .circ.phone[data-v-61a7c374]{\n    background-image: url(/img/phone2.png);\n    background-size: 12px;\n}\n.footer-contacts .circ.mail[data-v-61a7c374]{\n    background-image: url(/img/letter.png);\n    background-size: 12px;\n}\n@media(max-width: 500px){\n.footer-contacts[data-v-61a7c374]{\n        position: static;\n        width: 100%;\n        height: 100%;\n        border-radius: 0px;\n        background: none;\n        box-shadow: none;\n}\n.footer[data-v-61a7c374]{\n        background-color: #063454;\n}\n}\n@media(max-width: 400px){\n.footer-contacts[data-v-61a7c374]{\n        padding: 20px 0px;\n}\n}\n", ""]);
+exports.push([module.i, "\n.for_footer[data-v-61a7c374]{\n        background-image: url(/img/audit_footer.jpg);\n        background-repeat: no-repeat;\n        background-position: center;\n        height: 280px;\n        position: absolute;\n        bottom: 0px;\n        left: 0px;\n        width: 100%;\n}\n.footer[data-v-61a7c374]{\n        /* height: 280px;\n        position: absolute;\n        width: 100%;\n        bottom: 0px;\n        left: 0px; */\n        height: 100%;\n        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2f5470+0,071a27+100 */\n        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2f5470+0,071a27+100&0.7+0,0.7+100 */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */\nbackground: -webkit-gradient(linear,  left top, left bottom,  from(rgba(47,84,112,0.8)),to(rgba(7,26,39,0.9)));\nbackground: linear-gradient(to bottom,  rgba(47,84,112,0.8) 0%,rgba(7,26,39,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\nfilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b32f5470', endColorstr='#b3071a27',GradientType=0 ); /* IE6-9 */\n}\n.footer-contacts[data-v-61a7c374]{\n        background-color: #063454;\n        color: white;\n        padding: 20px 30px;\n        display: inline-block;\n        position: relative;\n        top: -40px;\n        border-radius: 4px;\n        box-shadow: 0px 0px 5px 0px rgba(129,127,127,0.2);\n}\n.footer-contacts .d-table[data-v-61a7c374]{\n        width: 100%;\n}\n.footer-contacts .d-table .d-table-cell[data-v-61a7c374]{\n        vertical-align: top;\n        padding-bottom: 10px;\n}\n.footer-contacts .d-table .d-table-row:nth-child(2) .d-table-cell[data-v-61a7c374]{\n        padding-bottom: 15px;\n}\n.footer-contacts .d-table .d-table-cell[data-v-61a7c374]:first-child{\n        width: 50px;\n}\n.footer-contacts .d-table .d-table-cell[data-v-61a7c374]:last-child{\n        padding-top: 10px;\n}\n.footer-contacts .circ[data-v-61a7c374]{\n        width: 40px;\n        height: 40px;\n        border-radius: 50%;\n        background-color: #015999;\n        border: 5px solid #034676;\n}\n.footer-contacts h3[data-v-61a7c374]{\n        text-align: center;\n        font-weight: bold;\n        margin: 0px;\n        line-height: 1em;\n}\n.footer-contacts .circ[data-v-61a7c374]{\n        /* background-image: url(/img/logo.png); */\n        background-position: center;\n        background-repeat: no-repeat;\n}\n.footer-contacts .circ.location[data-v-61a7c374]{\n        background-image: url(/img/map-location.png);\n        background-size: 10px;\n}\n.footer-contacts .circ.phone[data-v-61a7c374]{\n        background-image: url(/img/phone2.png);\n        background-size: 12px;\n}\n.footer-contacts .circ.mail[data-v-61a7c374]{\n        background-image: url(/img/letter.png);\n        background-size: 12px;\n}\n@media(max-width: 500px){\n.footer-contacts[data-v-61a7c374]{\n            position: static;\n            width: 100%;\n            height: 100%;\n            border-radius: 0px;\n            background: none;\n            box-shadow: none;\n}\n.footer[data-v-61a7c374]{\n            background-color: #063454;\n}\n}\n@media(max-width: 400px){\n.footer-contacts[data-v-61a7c374]{\n            padding: 20px 0px;\n}\n}\n", ""]);
 
 // exports
 
@@ -51567,51 +51569,55 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "footer" }, [
-      _c("div", { staticClass: "width-1" }, [
-        _c("div", { staticClass: "footer-contacts" }, [
-          _c("h3", [_vm._v("Контакты")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "for-ln" }, [
-            _c("div", { staticClass: "ln yellow" })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "d-table" }, [
-            _c("div", { staticClass: "d-table-row" }, [
-              _c("div", { staticClass: "d-table-cell" }, [
-                _c("div", { staticClass: "circ location" })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "d-table-cell" }, [
-                _vm._v("\n                        03055, Украина, г.Киев"),
-                _c("br"),
-                _vm._v(
-                  "\n                        проспект Победы 22, оф 38\n                    "
-                )
-              ])
+    return _c("div", { staticClass: "for_footer" }, [
+      _c("div", { staticClass: "footer" }, [
+        _c("div", { staticClass: "width-1" }, [
+          _c("div", { staticClass: "footer-contacts" }, [
+            _c("h3", [_vm._v("Контакты")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "for-ln" }, [
+              _c("div", { staticClass: "ln yellow" })
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "d-table-row" }, [
-              _c("div", { staticClass: "d-table-cell" }, [
-                _c("div", { staticClass: "circ phone" })
+            _c("div", { staticClass: "d-table" }, [
+              _c("div", { staticClass: "d-table-row" }, [
+                _c("div", { staticClass: "d-table-cell" }, [
+                  _c("div", { staticClass: "circ location" })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "d-table-cell" }, [
+                  _vm._v(
+                    "\n                            03055, Украина, г.Киев"
+                  ),
+                  _c("br"),
+                  _vm._v(
+                    "\n                            проспект Победы 22, оф 38\n                        "
+                  )
+                ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "d-table-cell" }, [
-                _vm._v(
-                  "\n                        +38 (044) 391 51 07\n                    "
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "d-table-row" }, [
-              _c("div", { staticClass: "d-table-cell" }, [
-                _c("div", { staticClass: "circ mail" })
+              _c("div", { staticClass: "d-table-row" }, [
+                _c("div", { staticClass: "d-table-cell" }, [
+                  _c("div", { staticClass: "circ phone" })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "d-table-cell" }, [
+                  _vm._v(
+                    "\n                            +38 (044) 391 51 07\n                        "
+                  )
+                ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "d-table-cell" }, [
-                _vm._v(
-                  "\n                        auditsirius@gmail.com\n                    "
-                )
+              _c("div", { staticClass: "d-table-row" }, [
+                _c("div", { staticClass: "d-table-cell" }, [
+                  _c("div", { staticClass: "circ mail" })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "d-table-cell" }, [
+                  _vm._v(
+                    "\n                            auditsirius@gmail.com\n                        "
+                  )
+                ])
               ])
             ])
           ])
