@@ -67971,8 +67971,8 @@ var router = new vueRouter({
     component: postPageComponent
   } // { path: '/blll', component: postPageComponent }
   ]
-});
-alert('test');
+}); // alert('test');
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
