@@ -11,3 +11,11 @@
         </tr>
     </tbody>
 <table>
+
+<div>
+    <h5>This packages always must be attached to repository</h5>
+    "require": {<br>
+    &emsp;"webdevetc/blogetc": "^3.1",<br>
+    &emsp;"leantony/laravel-grid": "~2.0"<br>
+    }<br>
+</div>
