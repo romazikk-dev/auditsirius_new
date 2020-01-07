@@ -57,7 +57,7 @@
                                                         {{service.desc_short}}
                                                     </div>
                                                     <div class="bottom">
-                                                        <div class="price float-left">от {{service.price}} грн</div>
+                                                        <div class="price float-left">{{ service.price > 0 ? 'от ' + service.price + ' грн' : 'Договорная' }}</div>
                                                         <div class="float-right">
                                                             <button class="btnn lighter-shadow"
                                                                     :data-ind="index"

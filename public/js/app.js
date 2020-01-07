@@ -52369,9 +52369,11 @@ var render = function() {
                                         { staticClass: "price float-left" },
                                         [
                                           _vm._v(
-                                            "от " +
-                                              _vm._s(service.price) +
-                                              " грн"
+                                            _vm._s(
+                                              service.price > 0
+                                                ? "от " + service.price + " грн"
+                                                : "Договорная"
+                                            )
                                           )
                                         ]
                                       ),
